@@ -1,11 +1,6 @@
-import { render, screen } from "@testing-library/react";
-import userEvent from "@testing-library/user-event";
+import { render } from "@testing-library/react";
 import App from "./App";
 
 test("theme button toggle", () => {
   render(<App />);
-  // const buttonEl = screen.getByText(/Current theme/i);
-
-  // userEvent.click(buttonEl);
-  // expect(buttonEl).toHaveTextContent(/dark/i);
 });
