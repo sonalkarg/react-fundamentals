@@ -1,13 +1,10 @@
-import { withUser } from "./withUser";
-import { UserInfo } from "./UserInfo";
+import { UserInfoForm } from "./UserInfoForm";
 
 function App() {
-  const UserInfoWrapper = withUser(UserInfo, "123");
-
   return (
     <>
       <h1>Base Create React App</h1>
-      <UserInfoWrapper />
+      <UserInfoForm />
     </>
   );
 }
